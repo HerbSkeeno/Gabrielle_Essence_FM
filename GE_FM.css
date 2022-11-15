@@ -49,6 +49,10 @@ p {
 	margin-top: 15px;
 }
 
+.prices{
+
+}
+
 .moneyfont {
 	align-items: center;
 	text-justify: ;
@@ -68,6 +72,7 @@ p {
 .add {
 	display: flex;
 	align-items: center;
+	display: block;
 	justify-content: center;
 	background-color: hsl(158, 36%, 37%);
 	width: 100%;
@@ -76,9 +81,14 @@ p {
 	color: white;
 	font-family: 'Montserrat';
 	font-size: 14px;
-	margin-top: 20px;	
+	margin-top: 20px;
+	border: 1px;
 }
 
+.add:hover{
+	background-color: black;
+
+}
 .strikework {
 	position: fixed;
 	margin-left: 13px;
@@ -86,6 +96,7 @@ p {
 	text-decoration: line-through;
 
 }
+
 
 @media only screen and (min-width: 1440px) {
 
@@ -112,8 +123,17 @@ p {
 .ad_container article{
 	flex: 1;
 	width: 50%;
+	padding-left: 6.0%;
+	padding-right: 6.0%;
 }
 
+.add {
+	margin-top: 40px;
+}
+
+.prices{
+	margin-top: 25px;
+}
 
 .img_product {
 	display: none;
@@ -131,6 +151,11 @@ p {
 	border-top-left-radius: 10px ;
 	border-bottom-left-radius: 10px ;
 } 
+
+p {
+	font-family: 'Montserrat';
+	line-height: 25px;
+
 
 }
 
