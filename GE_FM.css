@@ -1,30 +1,6 @@
 * {margin: 0; padding: 0;}
 
 .bg {
-<<<<<<< Updated upstream
-	box-sizing: border-box;
-	border: 2px solid hsl(158, 36%, 37%);
-	background-color: hsl(30, 38%, 92%);
-	width: auto;
-	height: 100vh;
-	object-fit: center;
-
-}
-
-.ad_container {
-	background-color: white;
-	width: 93%;
-	height: 93%;
-	margin: auto auto;
-	border-radius: 10px;
-	margin-top: 5%;
-}
-
-.ad_container article{
-	padding-left: 7.5%;
-	padding-right: 7.5%;
-	padding-top: 6%;
-=======
 	display: flex;
 	background-color: hsl(30, 38%, 92%);
 	width: auto;
@@ -45,7 +21,6 @@
 	width: 21rem;
 	height: 100vh;
 	border-radius: 10px;
->>>>>>> Stashed changes
 }
 
 .ad_container > picture > img{
@@ -55,27 +30,11 @@
 	border-top-right-radius: 10px;	
 }
 
-<<<<<<< Updated upstream
-.img_product {
-	width: 100%;
-	border-top-left-radius: 10px ;
-	border-top-right-radius: 10px ;
-}
-
-.img_product_Desk {
-	display: none;
-	flex: 1;
-	width: 50%;
-	height: 100%;
-	border-top-left-radius: 10px ;
-	border-bottom-left-radius: 10px ;
-=======
  .ad_container article{
  	position: absolute;
  	top: 16.5rem;
  	left: 2.5rem;
 	width: 19rem;
->>>>>>> Stashed changes
 }
 
 p {
@@ -109,13 +68,8 @@ h1 {
 	display: block;
 	justify-content: center;
 	background-color: hsl(158, 36%, 37%);
-<<<<<<< Updated upstream
-	width: 100%;
-	line-height: 40px;
-=======
 	width: 17.5rem;
 	line-height: 50px;
->>>>>>> Stashed changes
 	border-radius: 7px;
 	color: white;
 	font-family: 'Montserrat';
@@ -225,10 +179,6 @@ h1 {
 
 
 
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 }
 
 
